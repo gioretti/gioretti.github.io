@@ -1,0 +1,35 @@
+
+#searchFast{
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+}
+
+div.cell:first-child{
+    clear: left;
+}
+
+div.cell{
+    float: left;
+    position: relative;
+    width: 5%;
+    padding-bottom : 5%; /* = width for a 1:1 aspect ratio */
+}
+
+div.cell:hover{
+    background-color: lightblue;
+}
+
+.content {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#words .found{
+    text-decoration: line-through;
+}
+
+.cell.found{
+    background-color: lightcoral;
+}
